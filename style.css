@@ -9,3 +9,35 @@
     border: 2px solid #CBCBD9;
  
 }
+
+.video-container{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+    border: chocolate solid;
+}
+
+.video{
+    min-height: 250px;
+    height: auto;
+}
+
+.thumbnail{
+    width: 230px;
+    height: 150px;
+    margin-left: 5px;
+    object-fit: cover;
+}
+
+.content{
+    width: 230px;
+    height: 100px;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+}
